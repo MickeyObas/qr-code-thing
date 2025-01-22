@@ -20,7 +20,8 @@ body{
     flex-direction: column;
     align-items: center;
     border-radius: 12px;
-    padding: 7px;
+    padding: 10px;
+    box-shadow: 3px 3px 5px 3px rgba(0,0,0,0.1);
 }
 
 .qr-container{
@@ -33,7 +34,6 @@ body{
     width: 100%;
     height: 200px;
     border-radius: 12px;
-    object-fit: cover;
 }
 
 .card-body{
@@ -45,12 +45,15 @@ body{
 .card-body h3{
     text-align: center;
     margin-top: 15px;
+    color: hsl(218, 44%, 22%);
 }
 
 .card-body p{
-    font-size: 15px;
+    font-size: 14px;
     margin-top: 15px;
     margin-bottom: 15px;
     text-align: center;
     padding: 5px;
+    font-weight: 400;
+    color: hsl(216, 15%, 48%);
 }
